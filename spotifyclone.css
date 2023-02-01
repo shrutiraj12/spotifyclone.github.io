@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Lobster&display=swap');
+body{
+    background: rgb(232, 219, 234);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+   font-family:'baloo-bhai' ;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    height: 65px;
+    background: black;
+    color: aliceblue;
+    
+}
+.brand img{
+    width: 53px;
+    margin-top: -2px;
+    margin-left: -2px;
+    padding: 8px;
+   
+}
+nav ul li{
+    padding: 10px;
+    margin: 20px;
+}
+.brand{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 1.3rem;
+}
+.container{
+    height:70vh;
+    background-color: black;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 14px;
+    padding: 35px;
+    background-image: url(https://cdn.wallpapersafari.com/19/65/YyA0nJ.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+   cursor: pointer;
+}
+.songitem{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: -355px;
+    margin-top: 50px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+ 
+
+}
+.songitem img{
+    width:50px;
+    margin-left: -50px;
+    margin-top: -7px;
+    border-radius: 30px;
+}
+.timestamp{
+    padding: 30px;
+}
+.songitem1{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: -318px;
+    margin-top: 113px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songitem1 img{
+    width:50px;
+    margin-left: -50px;
+    margin-top: -7px;
+    border-radius: 30px;
+    
+}
+.songitem2{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: -318px;
+    margin-top: 111px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songitem2 img{
+    width:50px;
+    margin-left: -50px;
+    margin-top: -7px;
+    border-radius: 30px;
+    
+}
+.songitem3{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: -318px;
+    margin-top: 237px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songitem3 img{
+    width:50px;
+    margin-left: -50px;
+    margin-top: -7px;
+    border-radius: 30px;
+    
+}
+.songitem4{
+    height: 44px;
+    display: flex;
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: -321px;
+    margin-top: 174px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songitem4 img{
+    width:50px;
+    margin-left: -50px;
+    margin-top: -7px;
+    border-radius: 30px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
